@@ -1,8 +1,8 @@
 trigger:
 - '*'
 
-pool:
-  default: 'MyAgentPool'
+pool: MyAgentPool
+ 
 
 variables:
   buildConfiguration: 'Release'
