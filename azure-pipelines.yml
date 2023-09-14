@@ -1,7 +1,8 @@
 trigger:
 - '*'
 
-pool: MyAgentPool
+pool:
+  name: default
  
 
 variables:
