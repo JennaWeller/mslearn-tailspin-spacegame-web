@@ -5,7 +5,7 @@ pool:
   name: MyAgentPool
   demands:
   - agent.name -equals 'MyLinuxAgent'
-
+  - Agent.Version -gtVersion 2.187.2
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
